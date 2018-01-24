@@ -46,6 +46,14 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+  pod 'Firebase/Core'
+  pod ‘Firebase/Database’
+  pod 'Firebase/Auth'
+  pod ‘Firebase/Storage’
+  pod "WARangeSlider"
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+
 
 # Carthage
 #
