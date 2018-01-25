@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>839406057383-tobsncbtuhi34n09k748hosn4o4tb68e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.839406057383-tobsncbtuhi34n09k748hosn4o4tb68e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDT-cx3VzQr1oTIfoXMnf-MTJEOyRV_bVA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>839406057383</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>swift.Strela</string>
+	<key>PROJECT_ID</key>
+	<string>strela-334fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>strela-334fd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:839406057383:ios:c51c45da6ed44d50</string>
+	<key>DATABASE_URL</key>
+	<string>https://strela-334fd.firebaseio.com</string>
+</dict>
+</plist>

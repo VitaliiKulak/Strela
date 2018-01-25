@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F4D654200BE7CE002B9F47 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4D653200BE7CE002B9F47 /* RequestManager.swift */; };
+		54F4D656200BEDAF002B9F47 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4D655200BEDAF002B9F47 /* UserManager.swift */; };
+		D6DD0CBBC59CE182E54BC318 /* Pods_Strela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2325576575A812369F20F201 /* Pods_Strela.framework */; };
+		F40064B81FEC6DD900042BD9 /* DetailIEventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40064B71FEC6DD900042BD9 /* DetailIEventInfoViewController.swift */; };
+		F4504E021FBBC58400310885 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E011FBBC58400310885 /* AlertController.swift */; };
+		F4504E041FBBD1B000310885 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E031FBBD1B000310885 /* SignUpViewController.swift */; };
+		F4504E061FBBD1D400310885 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E051FBBD1D400310885 /* LogInViewController.swift */; };
+		F4504E0A1FBBD26500310885 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E091FBBD26500310885 /* CreateEventViewController.swift */; };
+		F4504E0C1FBBD29600310885 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E0B1FBBD29600310885 /* MapViewController.swift */; };
+		F4504E0E1FBCC13E00310885 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E0D1FBCC13E00310885 /* UserModel.swift */; };
+		F4504E101FBCD19500310885 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4504E0F1FBCD19500310885 /* EventModel.swift */; };
+		F45604021FE9DF02009D8F6A /* MapMarkerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45604011FE9DF02009D8F6A /* MapMarkerWindow.swift */; };
+		F472CB361FB731B400B81040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472CB351FB731B400B81040 /* AppDelegate.swift */; };
+		F472CB3B1FB731B400B81040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F472CB391FB731B400B81040 /* Main.storyboard */; };
+		F472CB401FB731B400B81040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F472CB3F1FB731B400B81040 /* Assets.xcassets */; };
+		F472CB431FB731B400B81040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F472CB411FB731B400B81040 /* LaunchScreen.storyboard */; };
+		F472CB521FBA31F500B81040 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F472CB511FBA31F500B81040 /* GoogleService-Info.plist */; };
+		F472CB541FBA331E00B81040 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472CB531FBA331E00B81040 /* DatabaseService.swift */; };
+		F472CB561FBAFC5A00B81040 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472CB551FBAFC5A00B81040 /* MapKit.framework */; };
+		F4E38F461FFD50D100F56B8F /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = F4E38F451FFD50D100F56B8F /* style.json */; };
+		F4FC66341FE9A81D00197719 /* MapMarkerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FC66331FE9A81D00197719 /* MapMarkerWindowView.xib */; };
+		F4FF0EF8200C2A1F006E8531 /* MPUIColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF0EF7200C2A1F006E8531 /* MPUIColorScheme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF53F5E11E6DA7CAD75CDFD /* Pods-Strela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strela.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strela/Pods-Strela.debug.xcconfig"; sourceTree = "<group>"; };
+		2325576575A812369F20F201 /* Pods_Strela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F4D653200BE7CE002B9F47 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		54F4D655200BEDAF002B9F47 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7BDB33226BA31CA493AF71C4 /* Pods-Strela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strela.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strela/Pods-Strela.release.xcconfig"; sourceTree = "<group>"; };
+		F40064B71FEC6DD900042BD9 /* DetailIEventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIEventInfoViewController.swift; sourceTree = "<group>"; };
+		F4504E011FBBC58400310885 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		F4504E031FBBD1B000310885 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F4504E051FBBD1D400310885 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F4504E091FBBD26500310885 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		F4504E0B1FBBD29600310885 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F4504E0D1FBCC13E00310885 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F4504E0F1FBCD19500310885 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		F45604011FE9DF02009D8F6A /* MapMarkerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkerWindow.swift; sourceTree = "<group>"; };
+		F46187531FC36DC4005CF028 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F472CB321FB731B400B81040 /* Strela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F472CB351FB731B400B81040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F472CB3A1FB731B400B81040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F472CB3F1FB731B400B81040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F472CB421FB731B400B81040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F472CB441FB731B400B81040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F472CB511FBA31F500B81040 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F472CB531FBA331E00B81040 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		F472CB551FBAFC5A00B81040 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F4E38F451FFD50D100F56B8F /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		F4FC66331FE9A81D00197719 /* MapMarkerWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapMarkerWindowView.xib; sourceTree = "<group>"; };
+		F4FF0EF7200C2A1F006E8531 /* MPUIColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPUIColorScheme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F472CB2F1FB731B400B81040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472CB561FBAFC5A00B81040 /* MapKit.framework in Frameworks */,
+				D6DD0CBBC59CE182E54BC318 /* Pods_Strela.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EFD691C55D1145C7CF577A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF53F5E11E6DA7CAD75CDFD /* Pods-Strela.debug.xcconfig */,
+				7BDB33226BA31CA493AF71C4 /* Pods-Strela.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1F82312B76625497E7DC261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46187531FC36DC4005CF028 /* CoreLocation.framework */,
+				F472CB551FBAFC5A00B81040 /* MapKit.framework */,
+				2325576575A812369F20F201 /* Pods_Strela.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F472CB291FB731B400B81040 = {
+			isa = PBXGroup;
+			children = (
+				F472CB341FB731B400B81040 /* Strela */,
+				F472CB331FB731B400B81040 /* Products */,
+				A6EFD691C55D1145C7CF577A /* Pods */,
+				D1F82312B76625497E7DC261 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F472CB331FB731B400B81040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F472CB321FB731B400B81040 /* Strela.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F472CB341FB731B400B81040 /* Strela */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF0EF7200C2A1F006E8531 /* MPUIColorScheme.swift */,
+				F472CB4A1FBA300F00B81040 /* Models */,
+				F472CB4B1FBA301D00B81040 /* Controllers */,
+				F472CB4D1FBA303900B81040 /* Layouts */,
+				F472CB4E1FBA306900B81040 /* Other */,
+				F472CB4C1FBA302900B81040 /* Supporting Files */,
+				F472CB3F1FB731B400B81040 /* Assets.xcassets */,
+				F472CB441FB731B400B81040 /* Info.plist */,
+			);
+			path = Strela;
+			sourceTree = "<group>";
+		};
+		F472CB4A1FBA300F00B81040 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4504E0D1FBCC13E00310885 /* UserModel.swift */,
+				F4504E0F1FBCD19500310885 /* EventModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F472CB4B1FBA301D00B81040 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4504E031FBBD1B000310885 /* SignUpViewController.swift */,
+				F4504E051FBBD1D400310885 /* LogInViewController.swift */,
+				F4504E091FBBD26500310885 /* CreateEventViewController.swift */,
+				F4504E0B1FBBD29600310885 /* MapViewController.swift */,
+				F40064B71FEC6DD900042BD9 /* DetailIEventInfoViewController.swift */,
+				F4FC662E1FE9A45800197719 /* Custom Callout */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F472CB4C1FBA302900B81040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F472CB511FBA31F500B81040 /* GoogleService-Info.plist */,
+				F4E38F451FFD50D100F56B8F /* style.json */,
+			);
+			name = "Supporting Files";
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F472CB4D1FBA303900B81040 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F472CB391FB731B400B81040 /* Main.storyboard */,
+				F472CB411FB731B400B81040 /* LaunchScreen.storyboard */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		F472CB4E1FBA306900B81040 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				54F4D653200BE7CE002B9F47 /* RequestManager.swift */,
+				54F4D655200BEDAF002B9F47 /* UserManager.swift */,
+				F472CB351FB731B400B81040 /* AppDelegate.swift */,
+				F472CB531FBA331E00B81040 /* DatabaseService.swift */,
+				F4504E011FBBC58400310885 /* AlertController.swift */,
+			);
+			name = Other;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F4FC662E1FE9A45800197719 /* Custom Callout */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC66331FE9A81D00197719 /* MapMarkerWindowView.xib */,
+				F45604011FE9DF02009D8F6A /* MapMarkerWindow.swift */,
+			);
+			path = "Custom Callout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F472CB311FB731B400B81040 /* Strela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F472CB471FB731B400B81040 /* Build configuration list for PBXNativeTarget "Strela" */;
+			buildPhases = (
+				C8293954A4C4A0F8AF6BA704 /* [CP] Check Pods Manifest.lock */,
+				F472CB2E1FB731B400B81040 /* Sources */,
+				F472CB2F1FB731B400B81040 /* Frameworks */,
+				F472CB301FB731B400B81040 /* Resources */,
+				EACB4B05E983B8FE771E0B37 /* [CP] Embed Pods Frameworks */,
+				A11AF64F50993F9E51549FFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strela;
+			productName = Strela;
+			productReference = F472CB321FB731B400B81040 /* Strela.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F472CB2A1FB731B400B81040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vitalii Kulak";
+				TargetAttributes = {
+					F472CB311FB731B400B81040 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F472CB2D1FB731B400B81040 /* Build configuration list for PBXProject "Strela" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F472CB291FB731B400B81040;
+			productRefGroup = F472CB331FB731B400B81040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F472CB311FB731B400B81040 /* Strela */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F472CB301FB731B400B81040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472CB431FB731B400B81040 /* LaunchScreen.storyboard in Resources */,
+				F472CB521FBA31F500B81040 /* GoogleService-Info.plist in Resources */,
+				F4FC66341FE9A81D00197719 /* MapMarkerWindowView.xib in Resources */,
+				F4E38F461FFD50D100F56B8F /* style.json in Resources */,
+				F472CB401FB731B400B81040 /* Assets.xcassets in Resources */,
+				F472CB3B1FB731B400B81040 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A11AF64F50993F9E51549FFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Strela/Pods-Strela-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Strela/Pods-Strela-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8293954A4C4A0F8AF6BA704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strela-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACB4B05E983B8FE771E0B37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Strela/Pods-Strela-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/WARangeSlider/WARangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WARangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Strela/Pods-Strela-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F472CB2E1FB731B400B81040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45604021FE9DF02009D8F6A /* MapMarkerWindow.swift in Sources */,
+				F4504E041FBBD1B000310885 /* SignUpViewController.swift in Sources */,
+				54F4D654200BE7CE002B9F47 /* RequestManager.swift in Sources */,
+				54F4D656200BEDAF002B9F47 /* UserManager.swift in Sources */,
+				F472CB541FBA331E00B81040 /* DatabaseService.swift in Sources */,
+				F4504E021FBBC58400310885 /* AlertController.swift in Sources */,
+				F40064B81FEC6DD900042BD9 /* DetailIEventInfoViewController.swift in Sources */,
+				F4504E061FBBD1D400310885 /* LogInViewController.swift in Sources */,
+				F472CB361FB731B400B81040 /* AppDelegate.swift in Sources */,
+				F4504E0A1FBBD26500310885 /* CreateEventViewController.swift in Sources */,
+				F4504E0C1FBBD29600310885 /* MapViewController.swift in Sources */,
+				F4504E101FBCD19500310885 /* EventModel.swift in Sources */,
+				F4504E0E1FBCC13E00310885 /* UserModel.swift in Sources */,
+				F4FF0EF8200C2A1F006E8531 /* MPUIColorScheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F472CB391FB731B400B81040 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F472CB3A1FB731B400B81040 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F472CB411FB731B400B81040 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F472CB421FB731B400B81040 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F472CB451FB731B400B81040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F472CB461FB731B400B81040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F472CB481FB731B400B81040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF53F5E11E6DA7CAD75CDFD /* Pods-Strela.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Strela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Strela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F472CB491FB731B400B81040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDB33226BA31CA493AF71C4 /* Pods-Strela.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Strela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Strela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F472CB2D1FB731B400B81040 /* Build configuration list for PBXProject "Strela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472CB451FB731B400B81040 /* Debug */,
+				F472CB461FB731B400B81040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F472CB471FB731B400B81040 /* Build configuration list for PBXNativeTarget "Strela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F472CB481FB731B400B81040 /* Debug */,
+				F472CB491FB731B400B81040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F472CB2A1FB731B400B81040 /* Project object */;
+}
