@@ -25,7 +25,6 @@
 		F472CB431FB731B400B81040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F472CB411FB731B400B81040 /* LaunchScreen.storyboard */; };
 		F472CB521FBA31F500B81040 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F472CB511FBA31F500B81040 /* GoogleService-Info.plist */; };
 		F472CB541FBA331E00B81040 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472CB531FBA331E00B81040 /* DatabaseService.swift */; };
-		F472CB561FBAFC5A00B81040 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F472CB551FBAFC5A00B81040 /* MapKit.framework */; };
 		F4E38F461FFD50D100F56B8F /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = F4E38F451FFD50D100F56B8F /* style.json */; };
 		F4FC66341FE9A81D00197719 /* MapMarkerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4FC66331FE9A81D00197719 /* MapMarkerWindowView.xib */; };
 		F4FF0EF8200C2A1F006E8531 /* MPUIColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF0EF7200C2A1F006E8531 /* MPUIColorScheme.swift */; };
@@ -55,7 +54,6 @@
 		F472CB441FB731B400B81040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F472CB511FBA31F500B81040 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F472CB531FBA331E00B81040 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
-		F472CB551FBAFC5A00B81040 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F4E38F451FFD50D100F56B8F /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		F4FC66331FE9A81D00197719 /* MapMarkerWindowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapMarkerWindowView.xib; sourceTree = "<group>"; };
 		F4FF0EF7200C2A1F006E8531 /* MPUIColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPUIColorScheme.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F472CB561FBAFC5A00B81040 /* MapKit.framework in Frameworks */,
 				D6DD0CBBC59CE182E54BC318 /* Pods_Strela.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				F46187531FC36DC4005CF028 /* CoreLocation.framework */,
-				F472CB551FBAFC5A00B81040 /* MapKit.framework */,
 				2325576575A812369F20F201 /* Pods_Strela.framework */,
 			);
 			name = Frameworks;
