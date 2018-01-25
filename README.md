@@ -1,1 +1,2 @@
 # Strela
+use Pod install
